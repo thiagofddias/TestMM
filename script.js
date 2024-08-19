@@ -1,10 +1,9 @@
 function reverseStringInPairs(input) {
-    var result = '';
+    var reverseString = '';
     for (var s = 0; s < input.length; s += 2) {
-        result = input[s] + input[s + 1] + result;
+        reverseString = input[s] + input[s + 1] + reverseString;
     }
-    return result;
-}
+    return reverseString;}
 
 console.log(reverseStringInPairs("abcd"));
 console.log(reverseStringInPairs("abcdef"));

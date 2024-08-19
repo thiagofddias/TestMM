@@ -1,6 +1,6 @@
 function reverseStringInPairs(input) {
-    let result = '';
-    for (let s = 0; s < input.length; s += 2) {
+    var result = '';
+    for (var s = 0; s < input.length; s += 2) {
         result = input[s] + input[s + 1] + result;
     }
     return result;
